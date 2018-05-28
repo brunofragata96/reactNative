@@ -3,6 +3,7 @@ import {
   StyleSheet, 
   Text, 
   View, 
+  TextInput,
   ScrollView, 
   Image, 
   Button, 
@@ -11,7 +12,7 @@ import {
   TouchableNativeFeedback,
   Platform,
 } from 'react-native';
-import Agradecimento from './componentes/agradecimento'
+import Agradecimento from './components/agradecimento'
 import  styles, { version } from './styles/styles' // colocar .js não muda em nada o ficheiro, este import styles não é igual ao export deffault styles, podem não ter nomes iguais que funciona na mesma  
 import strings from './strings/strings'
 

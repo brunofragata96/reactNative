@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import strings from './../Strings/strings'
+import strings from './../strings/strings'
 
 //      <Text> Olá {pessoa}</Text>
 
